@@ -1,0 +1,6 @@
+/nbproject #исключение папки nbproject
+folder2/*.html #Исключение загрузки файлов с расширением html из папки folder2
+subfolder1/ #исключите загрузку файлов из папки subfolder1,в конце названий которых есть цифры.
+/folder3
+!/folder3/subfolder2
+!/folder1
